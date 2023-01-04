@@ -6,12 +6,13 @@ export class Usuario {
   id: number;
 
   @Column({ length: 100 })
-  name: string;
+  nome: string;
 
   @Column({ length: 100 })
   email: string;
 
   @Column({ length: 255 })
   password: string;
+   
 
 }
